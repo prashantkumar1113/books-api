@@ -9,5 +9,5 @@
 | POST   | `/books`     | Create a new book                    |
 | GET    | `/books/:id` | Details about a particular book      |
 | PUT    | `/books/:id` | Update a particular book             |
-| DELETE | `/books/:id` | Delete a particular place            |
+| DELETE | `/books/:id` | Delete a particular book             |
 | GET    | `*`          | 404 page (not currently implemented) |
