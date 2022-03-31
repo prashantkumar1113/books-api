@@ -3,6 +3,9 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 
+// Allow cross origin requests
+const cors = require("cors");
+app.use(cors());
 // Parser
 app.use(express.urlencoded({extended: true}));
 
